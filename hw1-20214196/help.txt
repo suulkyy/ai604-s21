@@ -1,0 +1,10 @@
+Name	: Sultan Rizky Hikmawan Madjid
+ID	: 20214196
+
+In doing this assignment, I mostly refer to the cs231n lecture notes (notably lecture note 5 and 6) and PyTorch documentation materials provided by on the official PyTorch website. In addition, to implement the VGG-19 architecture, I mainly refer to the paper that proposes VGG-19.
+
+I also saved the results of my code on both hw1-1(assn).ipynb and hw1-2(assn).ipynb files after executing them and incorporate these results (such as classification accuracy, confusion matrix, etc.) on the report.pdf file. There's a chance that these results might differ every time we cleanly run the Jupyter Notebook module, so in grading my report and other implementations, please refer to the original submitted file for these results.
+
+In addition to that, for written question number 8 in section 1.2, I followed the expressions based on the PyTorch documentation instead of the formula used in cs231n lecture notes.
+
+Also, to run hw1-2(assn).ipynb, please install 'pickle' module first (in case you don't have). Otherwise, an error message will be returned to the code.

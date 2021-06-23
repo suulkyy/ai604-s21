@@ -1,0 +1,14 @@
+Name	: Sultan Rizky Hikmawan Madjid
+ID	: 20214196
+
+In doing this assignment, I mostly refer to the assignment handout and the PyTorch documentation website to implement various modules.
+
+I refer to the official PyTorch documentation of various build-in functions such as torch.nn.functional.cross_entropy, torch.nn.functional.cosine_similarity, torch.mm, torch.gather, and torch.scatter.
+
+Due to inability to update the CUDA driver on my lab GPU server from 10.2 to 11.1, I decided to train the network using cudatoolkit=10.2 instead of cudatoolkit=11.1.
+
+Also, since the self-supervised training only supports single-GPU usage and my GPU cannot fit the default batch size in most models (except SimSiam), I decided to train the network with a maximum batch size of 256 on almost every model (except MoCo, which fits only for batch size of 128).
+
+Fixing batch size of 64 leads to an assertion error during the validation, so I decided not to include the result in the report.pdf file.
+
+Thank you for conducting this course throughout the semester. It's been fun to learn this course throughout the semester.

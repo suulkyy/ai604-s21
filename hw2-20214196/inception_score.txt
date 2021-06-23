@@ -1,0 +1,8 @@
+Name: Sultan Rizky Hikmawan Madjid
+ID: 20214196
+
+GAN (DCGAN): Inception Score :  4.506377458855576
+LSGAN (DCGAN): Inception Score :  4.400616412743771
+WGAN (DCGAN): Inception Score :  3.183949104264989
+WGAN-GP (DCGAN): Inception Score :  3.0940939405020362
+CycleGAN: Inception Score :  3.82220948539759
